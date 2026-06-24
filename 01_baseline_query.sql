@@ -1,0 +1,6 @@
+SET STATISTICS IO ON;
+SET STATISTICS TIME ON;
+
+SELECT *
+FROM Sales.SalesOrderHeader
+WHERE OrderDate = '2013-07-01';
